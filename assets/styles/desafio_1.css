@@ -1,1 +1,20 @@
-@import 'app.css'; /* Importação dos estilos básicos. NÃO REMOVA! */
+@import 'app.css';
+/* Importação dos estilos básicos. NÃO REMOVA! */
+
+header {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: .75rem;
+}
+
+p, ul {
+  padding: 0.5rem 1rem;
+}
+
+section {
+  margin: 0 0 1rem 0;
+  width: 70%;
+  padding: 1rem;
+}
