@@ -1,0 +1,13 @@
+/**
+ * Aqui estão os estilos básicos do projeto.
+ * Tenha cuidado ao alterá-los!
+ */
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  vertical-align: baseline;
+  color: rgb(29, 29, 29);
+  /*list-style: none;*/
+ }
