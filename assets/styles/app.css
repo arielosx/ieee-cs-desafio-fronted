@@ -54,17 +54,22 @@ main {
   &>footer {
     width: 75%;
     margin: 2rem auto 0;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-template-columns: repeat(2, 1fr);
-
-    &>section {
-      justify-self: center;
-      align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    
+    section {
+      width: 100%;
     }
 
     p {
+      text-align: center;
       color: var(--gray)!important;
       margin-left: 1rem;
+      text-overflow: ellipsis;
     }
 
   }
@@ -76,6 +81,7 @@ main {
   align-items: center;
 
   h1 {
+    text-align: center;
     font-size: 1.75rem;
     margin: 1.25rem 0 .25rem 0;
   }
