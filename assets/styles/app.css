@@ -62,13 +62,15 @@ main {
     gap: 1rem;
     
     section {
-      width: 100%;
+      margin: 0 auto;
+      min-width: 45%;
+      display: flex;
+      justify-content: center;
     }
 
     p {
       text-align: center;
       color: var(--gray)!important;
-      margin-left: 1rem;
       text-overflow: ellipsis;
     }
 
