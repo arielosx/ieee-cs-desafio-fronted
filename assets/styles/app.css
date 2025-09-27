@@ -1,5 +1,5 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-*/
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 
 :root {
   --light: #e8f0fc;
@@ -31,10 +31,8 @@ main {
   width: 45%;
   max-width: 500px;
   margin: 10dvh auto;
-  padding: 2rem 1.5rem 3.5rem;
   background-color: var(--light);
   box-shadow: 0 20px 100px 0 rgb(29, 29, 29, 0.2);
-  border: 1px solid transparent;
   border-radius: 10px;
   transition: 200ms;
 
@@ -48,44 +46,26 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 1rem;
   }
 
   &>footer {
     width: 75%;
     margin: 2rem auto 0;
-    display: flex;
-    flex-wrap: wrap;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    
-    section {
-      margin: 0 auto;
-      min-width: 45%;
-      display: flex;
-      justify-content: center;
-    }
 
     p {
+      min-width: 45%;
       text-align: center;
       color: var(--gray)!important;
-      text-overflow: ellipsis;
     }
 
   }
 }
 
 .costumer-resume {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 
   h1 {
     text-align: center;
     font-size: 1.75rem;
-    margin: 1.25rem 0 .25rem 0;
   }
 
   p {
@@ -95,8 +75,6 @@ main {
   }
 
   &~article {
-    margin-top: 2rem;
-
     h2 {
       font-size: 1.25rem;
       margin-bottom: .25rem;
@@ -116,12 +94,12 @@ main {
   width: 250px;
   aspect-ratio: 1/1;
   border-radius: 100%;
-  overflow: hidden;
   display: flex;
+  overflow: hidden;
   align-items: center;
   justify-content: center;
-  border: 3px solid transparent;
   transition: 200ms;
+  cursor: pointer;
 
   img {
     width: 100%;;
@@ -141,10 +119,10 @@ main {
 
 header button {
   padding: .25rem;
-  color: var(--gray);
-  fill: var(--gray);
   background-color: transparent;
   border: 2px solid transparent;
+  color: var(--gray);
+  fill: var(--gray);
   box-shadow: none;
   aspect-ratio: 1/1;
   cursor: pointer;
@@ -153,12 +131,6 @@ header button {
   &:hover {
     fill: var(--orange);
   }
-}
-
-.btn-group {
-  display: flex;
-  gap: 20px;
-  height: 100%;
 }
 
 
