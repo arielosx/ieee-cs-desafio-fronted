@@ -1,1 +1,46 @@
 @import url("app.css");
+
+main {
+  padding: 2rem 1.5rem 3.5rem;
+  border: 1px solid transparent;
+
+  &>header {
+    margin-bottom: 1rem;
+  }
+
+  &>footer {    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+}
+
+.costumer-resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    margin: 1.25rem 0 .25rem 0;
+  }
+
+  &~article {
+    margin-top: 2rem;
+
+    h2 {
+      margin-bottom: .25rem;
+    }
+
+    p {
+      padding: 0 .25rem;
+    }
+  }
+}
+
+.circle-mask {
+  width: 250px;
+  border-radius: 100%;
+  border: 3px solid transparent;
+}
